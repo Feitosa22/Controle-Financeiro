@@ -1,5 +1,3 @@
-## Next.js App Router Course - Starter
+## Curso de roteador de aplicativos Next.js - inicial
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
-
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Este é o modelo inicial para o curso Next.js App Router. Ele contém o código inicial do aplicativo de painel.
