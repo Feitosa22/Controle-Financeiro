@@ -1,5 +1,15 @@
 import "@/app/ui/global.css";
 import { inter } from "@/app/ui/fonts";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    template: "%s | Dashboard Financeiro",
+    default: "Dashboard Financeiro",
+  },
+  description: "Dashboard Financeiro para maior controle da empresa.",
+  metadataBase: new URL("https://feitosatecnologia.com/login"),
+};
 
 export default function RootLayout({
   children,

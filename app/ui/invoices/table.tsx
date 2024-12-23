@@ -64,7 +64,7 @@ export default async function InvoicesTable({
                   Email
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
-                  Quantia
+                  Valor
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
                   Data
