@@ -125,7 +125,7 @@ export async function deleteInvoice(id: string) {
   try {
     await sql`DELETE FROM invoices WHERE id = ${id}`;
     revalidatePath("/dashboard/invoices");
-    return { message: "Deleted Invoice." };
+    return { message: "Fatura excluída." };
   } catch (error) {
     return { message: "Database Error 500: Failed to Delete Invoice.", error };
   }

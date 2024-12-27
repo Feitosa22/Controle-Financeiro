@@ -4,5 +4,9 @@ export const metadata: Metadata = {
   title: "Clientes",
 };
 export default function Page() {
-  return <p>Customers Page</p>;
+  return (
+    <div className="w-full">
+      <p>Customers Page</p>
+    </div>
+  );
 }
