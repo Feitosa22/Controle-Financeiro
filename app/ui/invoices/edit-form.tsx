@@ -26,7 +26,6 @@ export default function EditInvoiceForm({
   return (
     <form action={formAction}>
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
-        {/* Customer Name */}
         <div className="mb-4">
           <label htmlFor="customer" className="mb-2 block text-sm font-medium">
             Escolha o cliente
@@ -52,7 +51,6 @@ export default function EditInvoiceForm({
           </div>
         </div>
 
-        {/* Invoice Amount */}
         <div className="mb-4">
           <label htmlFor="amount" className="mb-2 block text-sm font-medium">
             Escolha a quantia
@@ -65,7 +63,7 @@ export default function EditInvoiceForm({
                 type="number"
                 step="0.01"
                 defaultValue={invoice.amount}
-                placeholder="Enter USD amount"
+                placeholder="Insira o valor em reais"
                 className="peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500"
                 required
               />
@@ -74,7 +72,6 @@ export default function EditInvoiceForm({
           </div>
         </div>
 
-        {/* Invoice Status */}
         <fieldset>
           <legend className="mb-2 block text-sm font-medium">
             Definir o status da fatura
